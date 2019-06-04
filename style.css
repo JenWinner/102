@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav{
@@ -15,7 +16,6 @@ color: white;
 text-decoration: none;
 font-weight: bold;
 font-size: 18pt;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 nav a:nth-child(1){
@@ -26,8 +26,23 @@ nav a:hover{
     color: orange;
     background: blueviolet;
     font-size: 25pt;
-
+    padding: 10px;
 }
+header{
+    width: 100%;
+    height: 400px;
+    background-color: lavender;
+    background-image: url(https://vignette.wikia.nocookie.net/disney-infinity/images/0/08/Beluga_Whale_Bailey.jpg/revision/latest?cb=20160629072523);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    }
+    header h1{
+        margin-left: 40px;
+        color: white; 
+        text-transform: uppercase;
+    }
 
     
 
